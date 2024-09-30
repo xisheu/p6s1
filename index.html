@@ -188,3 +188,145 @@
       -->
    <body>
 <html>
+   .box {
+   border: 5px solid beige;
+   background: pink;
+   margin: 10px;
+   padding: 10px;
+}
+
+.box em {
+   background: cornsilk;
+}
+
+.pt-2 em {
+   position: static;
+}
+
+.pt-3 em {
+   position: relative;
+   top: 40px;
+   left: -10px;
+}
+
+.pt-4 em {
+   position: fixed;
+   top: 40px;
+   left: 100px;
+}
+
+.pos-fix {
+   position: fixed;
+   background: blue;
+   top: 50%;
+   left: 50%;
+}
+
+.box-z {
+   font-size: 30px;
+   font-family: "Courier New", monospace;
+   font-weight: bolder;
+   padding: 30px;
+   border: 10px solid;
+   width: 75px;
+   text-align: center;
+   position: relative;
+}
+
+.box-a {
+   border-color: lightblue;
+   background: lightcyan;
+   z-index: 1;
+}
+
+.box-b {
+   border-color: lightyellow;
+   background: lightgray;
+   top: -90px;
+   left: 90px;
+   z-index: 1;
+}
+
+.box-c {
+   border-color: lightgreen;
+   background: turquoise;
+   top: -120px;
+   left: 15px;
+   z-index: 1;
+}
+
+.pt-6 em {
+   position: absolute;
+}
+
+.pt-7 {
+   position: absolute;
+   top: 50px;
+   left: 50px;
+}
+
+.pt-7 em {
+   position: absolute;
+   top: 50px;
+   left: 50px;
+}
+
+.pt-8 {
+   position: fixed;
+   top: 50px;
+   left: 50px;
+}
+
+.pt-8 em {
+   position: fixed;
+   top: 50px;
+   left: 50px;
+}
+
+.pt-9, .pt-10, .pt-11, .pt-12 {
+   width: 300px;
+   height: 300px;
+   position: relative;
+}
+
+.pt-9 .boxbox {
+   border: 10px solid gray;
+   text-align: center;
+   background: cornsilk;
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   bottom: 30px;
+   right: 80px;
+}
+
+.pt-10 .boxbox {
+   border: 10px solid gray;
+   text-align: center;
+   background: cornsilk;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+}
+
+.pt-11 .boxbox {
+   border: 10px solid gray;
+   text-align: center;
+   background: cornsilk;
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+}
+
+.pt-12 {
+   position: static;
+}
+
+.pt-12 .boxbox {
+   border: 10px solid gray;
+   text-align: center;
+   background: cornsilk;
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+}
